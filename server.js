@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 const userSchema = new mongoose.Schema({
     name: String,
     email: String,
-    phone: Number,
+    phone: String,
     qualifications: String,
     resume: String,
 });
